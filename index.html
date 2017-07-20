@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Movie Ticket 2</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <form id="moviestuff">
+            <h1>Movie Tickets</h1>
+            <select class="form-control" id="movie" value="movie">
+              <option value="3">WonderWoman</option>
+              <option value="3">Spider-Man:Homecoming</option>
+              <option value="1">Boggie Nights</option>
+              <option value="1">300</option>
+            </select>
+            <select class="form-control" id="age" value="age">
+              <option value="-1">Under 6 </option>
+              <option value="-.50">6-11</option>
+              <option value="0">Adult</option>
+              <option value="-1">65+</option>
+            </select>
+            <select class="form-control" id="time" value="time">
+              <option value="6">Matinee</option>
+              <option value="10">Weekends</option>
+              <option value="10">Evening</option>
+            </select>
+            <select class="form-control" id="discount" value="discount">
+              <option value="-1">Miltary</option>
+              <option value="-1">Student</option>
+              <option value="0">No Discount</option>
+            </select>
+            <button class="submit" type="submit" >Find your price</button>
+          </form>
+          <div class="results">
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
